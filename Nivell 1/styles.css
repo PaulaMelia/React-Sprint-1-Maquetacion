@@ -1,0 +1,109 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width:1200px;
+}
+
+
+
+/*ENCABEZADO*/
+
+.header {
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu {
+    background: #2B4865;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.logo {
+    background: #FA7070;
+    flex :1;  
+}
+
+.nav {
+    background: #FA7070;
+    flex :5 ;
+}
+
+.social {
+    background: #FA7070;
+    flex :1; 
+}
+
+.texto-principal {
+    background: #FF9551;
+}
+
+h1 {
+    background: #FFF38C;
+}
+
+
+
+/* SECTION*/
+
+.section {
+    background: #000;
+    display: flex;
+}
+
+.articulos {
+    background: #706b7e;
+    flex:2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.articulo {
+    background: #608aeb;
+    flex: 1 1 40%; /*si en vez de auto ponemos % junto con wrap*/
+}
+
+
+.navegacion {
+    background: #80cae5;
+    flex: 1 1 100%;  /*si en vez de auto ponemos 100% ocupara todo el espacio de la caja*/
+}
+
+.aside {
+    background: #ed3b58;
+    flex: 1 1 auto;
+}
+
+.extra {
+    background: #e6cc77;
+}
+
+.extra {
+    background: #e6cc77;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background: #000;
+}
+
+.pie {
+    background: rgb(221, 192, 44);
+}
+
+
+
+
+
