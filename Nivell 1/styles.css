@@ -103,7 +103,15 @@ h1 {
     background: rgb(221, 192, 44);
 }
 
+/*MEDIA*/
 
+/*TABLETA Exercici 2*/ 
 
+@media  (max-width:768px){  
+  
+    .section{
+    flex-direction: column;
+    background: rgb(231, 249, 34);
+ }
 
-
+}
