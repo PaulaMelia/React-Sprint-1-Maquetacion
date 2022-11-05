@@ -9,6 +9,9 @@
 - Opciones clicables con efecto hover o roll-over.
 - Secciones y articulos.
 
+## Ejercicios nivel 3
+-keyframes, animacion para logo y titulo.
+
 Alumna: Paula Melia
 
 
