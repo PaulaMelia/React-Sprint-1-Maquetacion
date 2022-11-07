@@ -7,9 +7,9 @@
 
 
 .padre {
-    display: flex;
     flex-flow: column nowrap;
     max-width:1200px;
+    margin: 2rem auto;
 }
 
 
